@@ -1,4 +1,5 @@
 #Markdown demo
+
 This is a demonstration of how to use Markdown to write README.  
 This file would demonstrate two syntax.  
 
@@ -14,17 +15,25 @@ This file would demonstrate two syntax.
 
 ## 目录
 
-- 标题
-- 段落
-- 加粗和斜体
-- 引用
-- 列表
-- 超链接
-- 图片
-- 代码
-- 分隔线
-- 自动链接
-- 转义字符
+- 传统 Markdown
+    - 标题
+	- 段落
+	- 加粗和斜体
+	- 引用
+	- 列表
+	- 超链接
+	- 图片
+	- 代码
+	- 分隔线
+	- 自动链接
+	- 转义字符
+- GitHub 风格 Markdown
+    - 换行
+    - 斜体
+    - 自动链接
+    - 删除线
+    - 代码段和代码高亮
+    - 任务列表
 
 ## 标题
 	
