@@ -18,27 +18,25 @@ This file would demonstrate two syntax.
 
 
 ## 标题
+	
+注意 \#和字之间要有空格
 
-···markdown
-This is an H1
-=============
+	This is an H1
+	=============
  
-This is an H2
--------------
-
-# This is an H1
-## This is an H2
-### This is an H3
-#### This is an H4
-##### This is an H5
-###### This is an H6
-··· 
+	This is an H2
+	-------------
+	
+	# This is an H1
+	## This is an H2
+	### This is an H3
+	#### This is an H4
+	##### This is an H5
+	###### This is an H6
 
 ## 段落
 
 1. 正常的段落不要使用任何空格或者TAB缩进  
 2. 用空行分段
 3. 使用2个空格换行
-
-
 
