@@ -5,11 +5,12 @@ This file would demonstrate two syntax.
 - the traditional (original) Markdown
 - GitHub Flavored Markdown.
 
-**本文档部分摘抄整理自以下三篇文章**  
+**本文档部分摘抄整理自以下几篇文章**  
 
 1. [markdown syntax 原作者](http://daringfireball.net/projects/markdown/syntax) on daringfireball.net 
 2. [上文的简体中文翻译](http://wowubuntu.com/markdown/basic.html) from wowubuntu.com
 3. [献给写作者的 Markdown 新手指南 ](http://jianshu.io/p/q81RER#login-modal)from 简书
+4. <http://www.ituring.com.cn/article/504>
 
 ## 目录
 
