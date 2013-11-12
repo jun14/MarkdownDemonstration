@@ -39,8 +39,8 @@ This file would demonstrate two syntax.
 ## 段落
 
 1. 正常的段落不要使用任何空格或者TAB缩进  
-2. 用空行分段
-3. 使用2个空格换行
+2. 连续回车分段
+3. 行尾使用2个空格换行
 
 ## 加粗和斜体
 可以使用\_或者\#
@@ -48,6 +48,16 @@ This file would demonstrate two syntax.
 	*斜体*		_斜体_
 	**加粗**		__加粗__
 	
+## 引用
+
+使用\>添加区域引用
+
+	> This is a blockquote.
+	> 
+	> This is the second paragraph in the blockquote.
+	>
+	> ## This is an H2 in a blockquote
+
 ## 列表
 
 - 无序列表 使用（星号，加号，减号）+ **空格**
@@ -61,22 +71,40 @@ This file would demonstrate two syntax.
 
 title是可选的
 
-	<p>行内</br>
-	This is an [example link](http://example.com/).</br>
-	This is an [example link](http://example.com/ "With a Title").</br> 
- 	</p>
-	<p>参考</br>
-	I get 10 times more traffic from [Google][1] than from
-	[Yahoo][2] or [MSN][3].</br>
-	</br>
-	[1]: http://google.com/        "Google"</br>
-	[2]: http://search.yahoo.com/  "Yahoo Search"</br>
-	[3]: http://search.msn.com/    "MSN Search"</br>
-	</p>
+	行内
+	This is an [example link](http://example.com
+	This is an [example link](http://example.com/ "With a Title 
 	
+	参考
+	I get 10 times more traffic from [Google][1] than from
+	[Yahoo][2] or [MSN][3
+	
+	[1]: http://google.com/        "Google
+	[2]: http://search.yahoo.com/  "Yahoo Search
+	[3]: http://search.msn.com/    "MSN Search
+	
+## 图片
 
+- 行内形式
+- 参考形式
 
+title是可选的
 
+	行内
+	![alt text](/path/to/img.jpg "Title")
+	
+	参考
+	![alt text][id]
+
+	[id]: /path/to/img.jpg "Title"
+
+### 代码
+
+- 反引号
+- TAB or 4 space
+
+使用反引号插入代码( \` )  
+如果需要插入反引号就使用两个反引号
 
 
 
