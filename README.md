@@ -19,12 +19,20 @@ This file would demonstrate two syntax.
 
 ## 标题
 
-> This is an H1
-> =============
-> 
-> This is an H2
-> -------------
-> 
+···markdown
+This is an H1
+=============
+ 
+This is an H2
+-------------
+
+# This is an H1
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+###### This is an H6
+··· 
 
 ## 段落
 
@@ -34,5 +42,3 @@ This file would demonstrate two syntax.
 
 
 
-###段落
-段落就是一段话
