@@ -37,7 +37,7 @@ This file would demonstrate two syntax.
 
 ## 标题
 	
-注意 \#和字之间要有空格
+注意 \# 和字之间要有空格
 
 	This is an H1
 	=============
