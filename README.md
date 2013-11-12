@@ -159,16 +159,16 @@ title是可选的
 	!   惊叹号
 
 ## 换行(GFM)
-	
-GFM中，换行可以不用在行尾加两个空格  
+
+GFM中，换行可以不用在行尾加两个空格
 第一行（不加空格）
 第二行	
 
 ## 斜体(GFM)
 
-有些变量是以下划线开头的，所以在GFW中，下划线开头的不会变成斜体  
-比如 `_text_`  
-_text_
+GFW中字符串中间的下划线会被忽略
+比如 `perform_complicated_task do_this_and_do_that_and_another_thing`  
+perform_complicated_task do_this_and_do_that_and_another_thing
 	
 ## 自动链接(GFM)
 
@@ -228,3 +228,4 @@ puts markdown.to_html
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
+
