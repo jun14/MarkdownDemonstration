@@ -28,12 +28,12 @@ This file would demonstrate two syntax.
 	- 自动链接
 	- 转义字符
 - GitHub 风格 Markdown
-    - 换行
-    - 斜体
-    - 自动链接
-    - 删除线
-    - 代码段和代码高亮
-    - 任务列表
+    - 换行(GFM)
+    - 斜体(GFM)
+    - 自动链接(GFM)
+    - 删除线(GFM)
+    - 代码段和代码高亮(GFM)
+    - 任务列表(GFM)
 
 ## 标题
 	
@@ -158,5 +158,73 @@ title是可选的
 	.   英文句点
 	!   惊叹号
 
+## 换行(GFM)
+	
+GFM中，换行可以不用在行尾加两个空格  
+第一行（不加空格）
+第二行	
 
+## 斜体(GFM)
 
+有些变量是以下划线开头的，所以在GFW中，下划线开头的不会变成斜体  
+比如 `_text_`  
+_text_
+	
+## 自动链接(GFM)
+
+GFW中直接添加URL就好，比如 https://github.com 
+
+## 删除线(GFM)
+
+	~~Mistaken text.~~
+显示成
+~~Mistaken text.~~
+
+## 代码段和代码高亮(GFM)
+
+	Here's an example:
+	
+	```
+	function test() {
+	  console.log("notice the blank line before this function?");
+	}
+	```
+显示成
+
+Here's an example:
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+针对某种代码，可以指明
+
+	```ruby
+	require 'redcarpet'
+	markdown = Redcarpet.new("Hello World!")
+	puts markdown.to_html
+	```
+
+显示成
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+## 任务列表(GFM)
+
+	- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+	- [x] list syntax required (any unordered or ordered list supported)
+	- [x] this is a complete item
+	- [ ] this is an incomplete item
+
+显示成
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
