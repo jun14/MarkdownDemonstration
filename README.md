@@ -1,25 +1,38 @@
 #Markdown demo
-This is a deomstration of how to use Markdown to write README.
-This file would demostrate two syntax, one is original Markdown, the other is GitHub Flavored Markdown.
-The traditional(original) one comes first.
-文档修改自http://daringfireball.net/projects/markdown/syntax#header，略有删节
+This is a demonstration of how to use Markdown to write README.  
+This file would demonstrate two syntax.  
 
-<h2 id="menu">目录</h2>
-*   [Block Elements 段略元素](#block)
-    *   [Paragraphs and Line Breaks 段落和分行](#p)
-    *   [Headers 标题 小标题](#header)
-    *   [Blockquotes 大块引用](#blockquote)
-    *   [Lists 列表](#list)
-    *   [Code Blocks 代码段](#precode)
-    *   [Horizontal Rules](#hr)
-*   [Span Elements](#span)
-    *   [Links](#link)
-    *   [Emphasis](#em)
-    *   [Code](#code)
-    *   [Images](#img)
-*   [Miscellaneous](#misc)
-    *   [Backslash Escapes](#backslash)
-    *   [Automatic Links](#autolink)
+- the traditional (original) Markdown
+- GitHub Flavored Markdown.
+
+**本文档部分摘抄整理自以下三篇文章**  
+
+1. [markdown syntax 原作者](http://daringfireball.net/projects/markdown/syntax) on daringfireball.net 
+2. [上文的简体中文翻译](http://wowubuntu.com/markdown/basic.html) from wowubuntu.com
+3. [献给写作者的 Markdown 新手指南 ](http://jianshu.io/p/q81RER#login-modal)from 简书
+
+## 目录
+
+- 标题
+- 段落
+
+
+## 标题
+
+> This is an H1
+> =============
+> 
+> This is an H2
+> -------------
+> 
+
+## 段落
+
+1. 正常的段落不要使用任何空格或者TAB缩进  
+2. 用空行分段
+3. 使用2个空格换行
+
+
 
 ###段落
 段落就是一段话
