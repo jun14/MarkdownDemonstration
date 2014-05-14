@@ -8,7 +8,7 @@ This file would demonstrate two syntax.
 
 **本文档部分摘抄整理自以下几篇文章**  
 
-1. [markdown syntax 原作者](http://daringfireball.net/projects/markdown/syntax) on daringfireball.net 
+1. [markdown syntax 原作者](http://daringfireball.net/projects/markdown/syntax "markdown syntax 原作者") on daringfireball.net 
 2. [上文的简体中文翻译](http://wowubuntu.com/markdown/basic.html) from wowubuntu.com
 3. [献给写作者的 Markdown 新手指南 ](http://jianshu.io/p/q81RER#login-modal)from 简书
 4. <http://www.ituring.com.cn/article/504>
@@ -85,7 +85,7 @@ This file would demonstrate two syntax.
 - 行内形式
 - 参考形式
 
-title是可选的
+title是可选的,title 的作用是会出现一个浮动的提示信息，信息内容由title给出。
 
 	行内
 	This is an [example link](http://example.com)
@@ -104,7 +104,7 @@ title是可选的
 - 行内形式
 - 参考形式
 
-title是可选的
+同上，title是可选的。
 
 	行内
 	![alt text](/path/to/img.jpg "Title")
